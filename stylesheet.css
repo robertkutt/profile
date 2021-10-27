@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@700&display=swap');
+
+h1 {
+  color: #575A5E;
+  font-family: 'Zen Old Mincho', serif;
+}
+
+h2 {
+  font-family:'Zen Old Mincho', serif;
+}
+
+#profile {
+  width: 125px;
+  height: 125px;
+  border-radius: 62.5px;
+  margin: 15px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.box {
+  background-color: #F8F7FF;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 15px;
+  /* box-shadow: 1px 1px 1px 1px grey; */
+}
+
+.box p {
+  margin-bottom: 40px;
+  color: #575A5E;
+  font-family: 'Zen Old Mincho', serif;
+}
+
+.link {
+  color: white;
+  font-family: 'Zen Old Mincho', serif;
+  background-color: grey;
+  margin: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: pink;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline;
+  font-size: 35px;
+}
+
+.list-inline >li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-linkedin:hover {
+  color: grey;
+}
+
+.fa-instagram:hover {
+color: grey;
+}
+
+.fa-github-square:hover {
+  color: grey
+}
+.last-box {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+  background-color: #F8F7FF;
+}
